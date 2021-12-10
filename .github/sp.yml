@@ -1,0 +1,8 @@
+name: Test
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Name
+        run: echo ${{ secrets.AWS_DUMMY_KEY }}
+
