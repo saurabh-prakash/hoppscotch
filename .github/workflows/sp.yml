@@ -1,8 +1,5 @@
 name: Test
-on:
-  push:
-    branches:
-      - saurabh-prakash-patch-1
+on: [push]
 jobs:
   Test:
     runs-on: ubuntu-latest
